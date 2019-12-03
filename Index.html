@@ -1,0 +1,112 @@
+<html>
+<head>
+  <title>RHOP</title>
+  <style type=text/css>
+ body{
+    background-color:#937967;
+    
+	background-fixed;
+    width: 99%;
+    height: %;
+    padding: 3px;
+    background-size: 90% 120%;
+	}
+
+
+	ul {
+		list-style-type: none;
+		margin: 1px 50px 50px -1px;
+		padding:10px 10px 10px;
+		overflow: hidden;
+		font-size:3ex;
+		
+		}
+	li {
+		float: right;
+		}
+	li a {
+		display: block;
+		color: white;
+		text-align: right;
+		padding: 10px 10px 1px;
+		text-decoration: none;
+		
+		}
+	li a:hover:not(.active) {
+		background-color: #DEBA82;
+		}
+	.active {
+		background-color:#9C782B;
+		}
+	p{
+	 
+	 text-align:center;
+	 }
+	 h4{
+	 margin-top:-0.5%;
+	 }
+	#sidebar
+	   {
+	   background:white;
+	   font-size:105%;
+	   padding: 10px;
+	   margin:30px 10x 10px;
+	   }
+
+</style>
+</head>
+
+
+	  
+<main>
+	
+  
+     
+
+	<nav>
+		<ul > <div class="logo"><a href ="#"> <img src="royal.png">
+			<li><a class="active" href="index.html">Home</a></li>
+			<li><a href="Watch.html">Watch</a></li>
+			<li><a href="Events.html">Event</a></li>
+			<li><a href="Ministries.html">Ministries</a></li>
+			<li><a href="Donation.html">Donation</a></li>
+			<li><a href="About us.html">About Us</a></li>
+			<li><a href="Contact.html">Contact</a></li>
+		<hr></ul>
+	</nav>
+	<header>
+       <!--<img src="royal10.jpg" style="float:right" widht="400" height="400" > -->
+  <div class="right"> </div>
+  
+  <!--<div class="w3-content w3-section" style="float:right" widht="400" height="400">-->
+  <img class="mySlides" src="royal10.jpg" style="float:right" widht="390" height="410">
+  <img class="mySlides" src="royal9.jpg" style="float:right" widht="390" height="410">
+  <img class="mySlides" src="royal3.jpg"style="float:right" widht="390" height="410">
+  <img class="myslides" src="royal4.jpg" style="float:right" widht="390" height="410" > 
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+  
+       <!--class="animated" --> <p style="font-size:13ex;" > WELCOME<br>TO <br>RHOP</p>
+	  <div id="sidebar">
+	  <h4>  Church Moto: Jesus said: "My house shall be called the house of prayer for all nations." <br> Matthew 21: 13<h4>
+ </div>
+ 
+ </body>
+</html>
+
